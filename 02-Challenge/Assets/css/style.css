@@ -1,24 +1,73 @@
-body{
-    background-color: purple;
+section {
+    height: 500px;
+    background-color: black;
+    border: solid white 1px;
 }
 
-#resume{
-    width: 100vw;
-    height: 45vh;
-    background-color: red;
-    border: 2px solid blue;
-    color: yellow;
+.hero {
+    height: 100vh;
+    background-color: grey;
+    font-size: 35px;
+}
+
+footer {
+    height: 500px;
+    background-color: grey
+    ;
+} 
+
+nav {
     display: flex;
-    flex-wrap: wrap;
-    /* flex-direction: column; */
-    align-content: space-around;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.item{
-    background-color: orange;
-    border: 2px solid pink;
-    color: brown; 
-    width: 45%;
-    height: 25%;
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    width: 200px;
+    text-decoration: none;
+ 
+}
+h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+p {
+    font-size: 30px;
+    margin: 0;
+}
+.hero-area {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button {
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background-color: red;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #6e0a0a85;
+}
+
+.button:active {
+    color: #db4f4f33; 
+
 }
