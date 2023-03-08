@@ -1,0 +1,24 @@
+body{
+    background-color: purple;
+}
+
+#resume{
+    width: 100vw;
+    height: 45vh;
+    background-color: red;
+    border: 2px solid blue;
+    color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.item{
+    background-color: orange;
+    border: 2px solid pink;
+    color: brown; 
+    width: 45%;
+    height: 25%;
+}
