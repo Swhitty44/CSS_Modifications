@@ -1,7 +1,5 @@
 section {
-    height: 500px;
     background-color:black;
-    border: solid white 1px;
 }
 
 .hero {
@@ -12,13 +10,15 @@ section {
 
 footer {
     height: 500px;
-    background-color: grey
-    ;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 80px;
 } 
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
 }
 
 ul {
@@ -45,6 +45,10 @@ p {
     font-size: 30px;
     margin: 0;
 }
+.subtext {
+    font-size: 15px;
+}
+
 .hero-area {
     display: flex;
     height: 100%;
@@ -79,11 +83,11 @@ p {
 
 .socials {
     padding-bottom: 200px;
-    margin: 20px;
+    margin: 30px;
 }
 
 .social {
-    margin: 10px;
+    margin: 20px;
 }
 
 
@@ -94,7 +98,55 @@ p {
     padding: 80px;
 }
 
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 80px;
+}
+
 .headshot {
     width: 250px;
     border-radius: 150px;
+}
+
+.headshot-stored {
+    display: flex;
+    align-items: center;
+}
+.project-doc {
+    width: 300px;
+    height: 500px;
+    background-color: #3f3333;
+    box-shadow: 5px 5px 20px #8b0d0d;
+}
+
+.project-stored {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-stored {
+        display: flex;
+        flex-wrap:  wrap;
+    }
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    decoration: none;
+    color: red;
 }
